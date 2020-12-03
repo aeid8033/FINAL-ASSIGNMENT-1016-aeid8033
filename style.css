@@ -5,6 +5,7 @@ body {
   background: #f1f1f1;
 }
 
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -22,9 +23,9 @@ body {
 
 .header { grid-area: header; }
 .header {
-  padding: 30px;
+  position: relative;
   text-align: center;
-  background: white;
+
 }
 
 .header h1 {
@@ -39,8 +40,60 @@ body {
   text-align:left;
 }
 
-.waystovolunteer { grid-area: waystovolunteer; }
 
+
+
+.waystovolunteer h1 {
+  background:#272e7d;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  height: 50px;
+  width: 400px;
+  grid-area: waystovolunteer;
+   color: white
+}
+
+/*Uni*/
+.waystovolunteer h2:nth-child(2) {
+ background-color: rgb(196, 214, 201);
+  display: inline-block;
+  padding: 50px;
+  margin: 20px;
+ position:relative;
+  width:100px;
+  height:100px;
+  grid-area: waystovolunteer;
+   color: white
+
+}
+/*national*/
+.waystovolunteer :nth-child(3) {
+ background-color: rgb(196, 214, 201);
+ display:inline-block;
+  padding: 50px;
+  margin: 20px;
+  position:relative;
+  width:100px;
+  height:100px;
+  grid-area: waystovolunteer;
+   color: white
+
+/*school*/
+}
+.waystovolunteer :nth-child(4) {
+background-color: rgb(196, 214, 201);
+display:inline-block;
+  padding: 50px;
+  margin: 20px;
+ position:relative;
+  width:100px;
+  height:100px;
+  grid-area: waystovolunteer;
+   color: white
+
+}
 .universitychapter { grid-area: universitychapter; }
 
 .nop { grid-area: nop; }
@@ -56,3 +109,19 @@ body {
   position: relative;
 }
 */
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
