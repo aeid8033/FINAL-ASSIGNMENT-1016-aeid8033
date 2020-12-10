@@ -94,13 +94,63 @@ display:inline-block;
    color: white
 
 }
-.universitychapter { grid-area: universitychapter; }
+.universitychapter { 
+  grid-area: universitychapter; }
+
+  .universitychapter h1{
+    background:#272e7d;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  height: 50px;
+  width: 400px;
+  grid-area: universitychapter;
+  color: white
+
+  }
 
 .nop { grid-area: nop; }
+.nop h1{
+    background:#272e7d;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  height: 50px;
+  width: 400px;
+  grid-area: nop ;
+  color: white
+
+  }
 
 .schooloutreach { grid-area: schooloutreach; }
+.schooloutreach h1{
+    background:#272e7d;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  height: 50px;
+  width: 400px;
+  grid-area: nop;
+  color: white
 
+  }
 .otherwaystohelp { grid-area: otherwaystohelp; }
+
+.otherwaystohelp h1{
+    background:#272e7d;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  height: 50px;
+  width: 400px;
+  grid-area: otherwaytohelp;
+  color: white
+
+  }
 
 
 /* For presentation only, no need to copy the code below 
