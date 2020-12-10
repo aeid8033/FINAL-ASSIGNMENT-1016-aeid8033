@@ -33,17 +33,17 @@ body {
 }
 
 
-.ourvalues { 
+.Pastexamples { 
   text-align:right;
   grid-area: ourvalues; }
-.ourvalues p {
+.Pastexamples p {
   text-align:left;
 }
 
 
 
 
-.waystovolunteer h1 {
+.Requiremnts h1 {
   background:#272e7d;
   text-align: center;
   display: block;
@@ -55,7 +55,7 @@ body {
    color: white
 }
 
-/*Uni*/
+/*Uni
 .waystovolunteer h2:nth-child(2) {
  background-color: rgb(196, 214, 201);
   display: inline-block;
@@ -68,7 +68,7 @@ body {
    color: white
 
 }
-/*national*/
+/*national
 .waystovolunteer :nth-child(3) {
  background-color: rgb(196, 214, 201);
   display: inline-block;
@@ -80,7 +80,7 @@ body {
   grid-area: waystovolunteer;
    color: white
 
-/*school*/
+/*school
 }
 .waystovolunteer :nth-child(4) {
  background-color: rgb(196, 214, 201);
@@ -92,7 +92,7 @@ body {
   height: 50px;
   grid-area: waystovolunteer;
    color: white
-
+*/
 }
 .universitychapter { 
   grid-area: universitychapter; }
