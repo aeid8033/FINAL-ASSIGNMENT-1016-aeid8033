@@ -80,131 +80,31 @@ body {
   }
 
 .SIGNUP { grid-area: SIGNUP; }
-.SIGNUP h1{
-  background:#272e7d;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  height: 70px;
-  width: 400px;
-  grid-area: SIGNUP ;
-  color: white
 
-  }
+.SIGNUP {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+  .SIGNUP h1 {
+  background:#272e7d;
+  height: 50px;
+  width: 200px;
+  font-size: 30px;
+  color: white
+}
   .SIGNUP h2{
   text-align: center;
   display: block;
   grid-area: SIGNUP ;
   }
 
-/*Uni
-.waystovolunteer h2:nth-child(2) {
- background-color: rgb(196, 214, 201);
-  display: inline-block;
-  padding: 50px;
-  margin: 20px;
- position:relative;
-  width:30%;
-  height: 50px;
-  grid-area: waystovolunteer;
-   color: white
 
-}
-/*national
-.waystovolunteer :nth-child(3) {
- background-color: rgb(196, 214, 201);
-  display: inline-block;
-  padding: 50px;
-  margin: 20px;
- position:relative;
-  width:30%;
-  height: 50px;
-  grid-area: waystovolunteer;
-   color: white
-
-/*school
-}
-.waystovolunteer :nth-child(4) {
- background-color: rgb(196, 214, 201);
-  display: inline-block;
-  padding: 50px;
-  margin: 20px;
- position:relative;
-  width:30%;
-  height: 50px;
-  grid-area: waystovolunteer;
-   color: white
-}
-.universitychapter { 
-  grid-area: universitychapter; }
-*/
-
-/*
-.schooloutreach { grid-area: schooloutreach; }
-.schooloutreach h1{
-    background:#272e7d;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  height: 50px;
-  width: 400px;
-  grid-area: nop;
-  color: white
-
-  }
-.otherwaystohelp { grid-area: otherwaystohelp; }
-
-.otherwaystohelp h1{
-    background:#272e7d;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  height: 30px;
-  width: 400px;
-  grid-area: otherwaytohelp;
-  color: white
-
-  }
-
-  .otherwaystohelp h2 {
-  background-color: rgb(196, 214, 201);
-  text-align: center;
-  display: inline-block;
-  padding: 50px;
-  margin: 20px;
- position:relative;
-  width:30%;
-  height: 50px;
-  grid-area: waystovolunteer;
-   color: white
-  }
-
-*/
-
-
-/* For presentation only, no need to copy the code below 
-.grid-container * {
-  border: 1px solid red;
-  position: relative;
-}
-*/
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
