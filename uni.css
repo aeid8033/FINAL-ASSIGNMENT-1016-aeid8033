@@ -1,4 +1,5 @@
-html, body, .grid-container { height: 100%; margin: 0; }
+html, body, .grid-container2 { height: 100%; margin: 0; }
+
 body {
   font-family: Arial;
   padding: 10px;
@@ -6,19 +7,17 @@ body {
 }
 
 
-.grid-container {
+.grid-container2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 0.9fr 1.1fr 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
   grid-template-areas:
     "header header header header"
-    "ourvalues ourvalues ourvalues ourvalues"
-    "waystovolunteer waystovolunteer waystovolunteer waystovolunteer"
-    "universitychapter universitychapter universitychapter universitychapter"
-    "nop nop nop nop"
-    "schooloutreach schooloutreach schooloutreach schooloutreach"
-    "otherwaystohelp otherwaystohelp otherwaystohelp otherwaystohelp";
+    "Pastexamples Pastexamples Pastexamples Pastexamples"
+    "Requiremnts Requiremnts Requiremnts Requiremnts"
+    "FAQ FAQ FAQ FAQ"
+    "SIGNUP SIGNUP SIGNUP SIGNUP"
 }
 
 .header { grid-area: header; }
@@ -32,17 +31,13 @@ body {
   font-size: 50px;
 }
 
-
 .Pastexamples { 
-  text-align:right;
-  grid-area: ourvalues; }
+  text-align:center;
+  grid-area: Pastexamples; }
 .Pastexamples p {
   text-align:left;
 }
-
-
-
-
+.Requiremnts { grid-area: Requiremnts; }
 .Requiremnts h1 {
   background:#272e7d;
   text-align: center;
@@ -51,9 +46,42 @@ body {
   position: relative;
   height: 50px;
   width: 400px;
-  grid-area: waystovolunteer;
+  grid-area: Requiremnts;
    color: white
 }
+
+.FAQ { grid-area: FAQ; }
+ .FAQ h1{
+    background:#272e7d;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  height: 50px;
+  width: 400px;
+  grid-area: FAQ;
+  color: white
+
+  }
+
+.SIGNUP { grid-area: SIGNUP; }
+.SIGNUP h1{
+  background:#272e7d;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  height: 70px;
+  width: 400px;
+  grid-area: SIGNUP ;
+  color: white
+
+  }
+  .SIGNUP h2{
+  text-align: center;
+  display: block;
+  grid-area: SIGNUP ;
+  }
 
 /*Uni
 .waystovolunteer h2:nth-child(2) {
@@ -92,38 +120,12 @@ body {
   height: 50px;
   grid-area: waystovolunteer;
    color: white
-*/
 }
 .universitychapter { 
   grid-area: universitychapter; }
+*/
 
-  .universitychapter h1{
-    background:#272e7d;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  height: 50px;
-  width: 400px;
-  grid-area: universitychapter;
-  color: white
-
-  }
-
-.nop { grid-area: nop; }
-.nop h1{
-  background:#272e7d;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  height: 70px;
-  width: 400px;
-  grid-area: nop ;
-  color: white
-
-  }
-
+/*
 .schooloutreach { grid-area: schooloutreach; }
 .schooloutreach h1{
     background:#272e7d;
@@ -165,7 +167,7 @@ body {
    color: white
   }
 
-
+*/
 
 
 /* For presentation only, no need to copy the code below 
