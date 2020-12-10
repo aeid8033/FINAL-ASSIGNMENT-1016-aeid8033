@@ -40,7 +40,8 @@ body {
   text-align:left;
 }
 
-
+.waystovolunteer { 
+  grid-area: waystovolunteer; }
 
 
 .waystovolunteer h1 {
@@ -58,42 +59,51 @@ body {
 /*Uni*/
 .waystovolunteer h2:nth-child(2) {
  background-color: rgb(196, 214, 201);
-  display: inline-block;
-  padding: 50px;
-  margin: 20px;
- position:relative;
+ text-align: center;
+  display: inline;
+  float:right;
   width:30%;
-  height: 50px;
+  height: 70px;
+  padding:10px;
+  margin:5px ;
+  position:relative;
   grid-area: waystovolunteer;
    color: white
+
 
 }
 /*national*/
 .waystovolunteer :nth-child(3) {
  background-color: rgb(196, 214, 201);
-  display: inline-block;
-  padding: 50px;
-  margin: 20px;
- position:relative;
+ text-align: center;
+  display: inline;
+  float:right;
   width:30%;
-  height: 50px;
+  height: 70px;
+  padding:10px;
+  margin: 5px ;
+  position:relative;
   grid-area: waystovolunteer;
    color: white
+
 
 /*school*/
 }
 .waystovolunteer :nth-child(4) {
  background-color: rgb(196, 214, 201);
-  display: inline-block;
-  padding: 50px;
-  margin: 20px;
- position:relative;
+ text-align: center;
+  display: inline;
+  float:right;
   width:30%;
-  height: 50px;
+  height: 70px;
+  padding:10px;
+  margin:5px;
+  position:relative;
   grid-area: waystovolunteer;
    color: white
 
 }
+
 .universitychapter { 
   grid-area: universitychapter; }
 
@@ -166,27 +176,3 @@ body {
   }
 
 
-
-
-/* For presentation only, no need to copy the code below 
-.grid-container * {
-  border: 1px solid red;
-  position: relative;
-}
-*/
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
