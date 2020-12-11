@@ -188,3 +188,55 @@ grid-area: header;
    color: white
   }
 
+
+
+
+
+.boxingourvalues{
+  position: relative;
+  float:centre;
+  text-align: center;
+  padding:15px;
+  background:#272e7d; 
+  color:#ffffff;
+  margin-top:40px;
+  margin-bottom:10px;
+
+}
+.boxing1{
+  float:centre;
+  text-align: center;
+  padding:15px;
+  color:black;
+  margin-top:40px;
+  margin-bottom:10px;
+}
+.boxing2{
+  float:centre;
+  padding:15px;
+  color:black;
+  margin-top:40px;
+  margin-bottom:10px;
+}
+.boxing3{
+  float:centre;
+  padding:15px;
+  color:black;
+  margin-top:40px;
+  margin-bottom:10px;
+}
+.boxing4{
+  float:centre;
+  padding:15px;
+  color:black;
+  margin-top:40px;
+  margin-bottom:10px;
+}
+.boxingheader{
+  float:centre;
+  text-align: center;
+  padding:15px;
+  color:#272e7d;
+  margin-top:40px;
+  margin-bottom:10px;
+}
