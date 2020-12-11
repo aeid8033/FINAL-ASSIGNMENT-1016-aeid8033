@@ -52,6 +52,14 @@ input[type=date] {
   resize: vertical;
 
 }
+input[type=email] {
+ width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+
+}
 
 .container {
   border-radius: 5px;
