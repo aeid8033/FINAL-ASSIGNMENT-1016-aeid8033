@@ -189,7 +189,16 @@ grid-area: header;
    color: white
   }
 
+.otherwaystohelp img {
 
+  display: inline-block;
+  block: center;
+  padding: 50px;
+  margin: 20px;
+ position:relative;
+  grid-area: otherwaystohelp;
+  
+  }
 
 
 

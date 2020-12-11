@@ -21,6 +21,11 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(53, 103, 150);
+
+}
+
+.header p {
+  color:black;
 }
 
 input[type=text], select, textarea {
