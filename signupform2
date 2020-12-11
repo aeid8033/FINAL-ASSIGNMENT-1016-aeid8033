@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+</head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="signupform.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+ <div class="grid-container2">
+
+  <div class="header">
+    <img src="progheader.png" width = "100%" alt="header line break">
+     <div class="centered"><h1>SCHOOL OUTREACH</h1></div>
+  </div>
+ 
+
+
+  <div class="Pastexamples">
+    <h1> Past Examples </h1>
+  </div>
+  <aside id="sidebar">
+          <div class="dark">
+            <h3>FILL INFO</h3>
+            <form class="quote">
+  						<div>
+  							<label>Name</label><br>
+  							<input type="text" placeholder="Name">
+  						</div>
+  						<div>
+  							<label>Email</label><br>
+  							<input type="email" placeholder="Emial Address">
+  						</div>
+  						<div>
+  							<label>Message</label><br>
+  							<textarea placeholder="Message"></textarea>
+  						</div>
+  						<button class="button_1" type="submit">Send</button>
+					</form>
+      </div>
+    </section>
+      </div>
+    </section>
+
+
+    <footer>
+      <p>WEB PROPOSAL, Copyright &copy; 2017</p>
+    </footer>
+</div>
