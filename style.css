@@ -85,7 +85,8 @@ grid-area: header;
 
 
 }
-/*national*/
+/*
+
 .waystovolunteer :nth-child(3) {
  background-color: rgb(196, 214, 201);
  text-align: center;
@@ -100,7 +101,7 @@ grid-area: header;
    color: white
 
 
-/*school*/
+
 }
 .waystovolunteer :nth-child(4) {
  background-color: rgb(196, 214, 201);
@@ -116,7 +117,7 @@ grid-area: header;
    color: white
 
 }
-
+*/
 .universitychapter { 
   grid-area: universitychapter; }
 
@@ -203,6 +204,15 @@ grid-area: header;
   margin-bottom:10px;
 
 }
+.maintitles {
+  float:centre;
+  text-align: center;
+  padding:15px;
+  color:white; 
+  margin-top:40px;
+  margin-bottom:10px;
+}
+
 .boxing1{
   float:centre;
   text-align: center;
